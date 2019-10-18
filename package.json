@@ -1,0 +1,22 @@
+{
+  "name": "transfer-funds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@token-io/tpp": "^1.0.21",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1"
+  }
+}
